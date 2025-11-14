@@ -4,6 +4,10 @@
   "version": "0.1.0",
   "description": "Lichess 체스 분석 페이지에서 AI 기반 포지션 해설을 제공합니다",
   
+  "icons": {
+    "128": "public/icon128.png"
+  },
+  
   "permissions": [
     "storage"
   ],
@@ -14,7 +18,10 @@
   
   "action": {
     "default_popup": "public/popup.html",
-    "default_title": "AI Lichess Commentator"
+    "default_title": "AI Lichess Commentator",
+    "default_icon": {
+      "128": "public/icon128.png"
+    }
   },
   
   "options_page": "public/options.html",
