@@ -1,0 +1,31 @@
+# API 키
+*.key
+.env
+.env.local
+
+# 빌드 파일
+dist/
+build/
+
+# 시스템 파일
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 로그
+*.log
+npm-debug.log*
+
+# 임시 파일
+temp/
+tmp/
+
+# 압축 파일
+*.zip
+*.crx
+*.pem
